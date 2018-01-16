@@ -1,1 +1,1 @@
-# React/Redux App for a Tinder like application
+# React/Redux App for a Book store application
