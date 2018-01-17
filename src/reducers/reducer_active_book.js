@@ -6,12 +6,9 @@
 export default function(state = null, action) {
 	//The reducer will be called very frequently by various actions. 
 	//we will want a base case so that we quickly ignore actions that we do not care about.
-
 	switch(action.type) {
 		case 'BOOK_SELECTED':
 			return action.payload; 
-
 	}
-	return state;
-
+	return state; //never mutate this, always return a 'fresh' obj
 }
